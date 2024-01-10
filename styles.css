@@ -1,0 +1,341 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #ffffff;
+    color: #343a40;
+    background: url('img/frame.png') no-repeat;
+    background-size: 680px;
+    background-position: right;
+    background-position-x: 720px;
+    background-position-y: 300px;
+    padding: 40px;
+    position: sticky;
+}
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+.section {
+    margin-top: 40px;
+}
+
+.col-md-6 {
+    height: 370px;
+
+}
+
+.order-md-1 {
+    top: 80px;
+}
+
+.embed-responsive-item {
+    padding-top: 20px;
+}
+
+.col-12 {
+    padding-bottom: 20px;
+}
+
+.header-title {
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+}
+
+.text-left p {
+    padding-top: 15px;
+}
+
+.banner {
+    color: #000000;
+    padding: 20px;
+    /* border-radius: 10px; */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* стили для блока ГОДОВОЙ СЧЕТ */
+.yearly-report {
+    background: url('img/pattern.PNG');
+    padding: 40px;
+    position: sticky;
+    /* border-radius: 10px; */
+    /* color: #343a40; */
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+/* стили для изображения внутри блока ГОДОВОЙ СЧЕТ */
+.yearly-report img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* стили для текста внутри блока ГОДОВОЙ СЧЕТ */
+.yearly-report p {
+    /* font-size: 1.2em; */
+    color: #383838;
+}
+
+.yearly-report a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #000000;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+.yearly-report a:hover {
+    background-color: #0056b3;
+}
+
+/* стили для блока баннера */
+.inner-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.large-number {
+    font-size: 8em;
+    color: #2cc24f;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+.info {
+    text-align: left;
+}
+
+.bold-text {
+    /* font-weight: bold; */
+    font-size: 2em;
+}
+
+.small-text {
+    font-size: 0.8em;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+.banner p {
+    margin-top: 2px;
+}
+
+.footer {
+    background-image: url('img/footer-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 10px -10px 15px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.slide-menu {
+    display: inline;
+    font-weight: bold;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-menu span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+/* Стили для всех кнопок */
+.btn,
+.btn-primary,
+.btn-outline-light,
+.footer-menu li .slide-menu span {
+    color: black;
+    border: 2px solid rgb(192, 0, 0);
+    background-color: white !important;
+    /* transition: border-color 0.3s ease-in-out; */
+}
+
+/* Стили для правой границы кнопок */
+.btn,
+.btn-primary,
+.footer-menu li,
+.slide-menu span {
+    border-left-width: 6px;
+    color: black;
+    border-radius: 0%;
+}
+
+/* Наведение на кнопки и ссылки */
+.btn:hover,
+.btn-outline-light:hover,
+.footer-menu li:hover,
+.slide-menu span:hover {
+    border-color: #ababab;
+    color: #000000;
+}
+
+.btn {
+    color: #000000;
+    position: relative;
+    align-items: center;
+    background-color: transparent
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+.open-account {
+    margin-top: 40px;
+    margin-right: 300px;
+}
+
+.btn-director {
+    color: #f7de00;
+    margin-top: 110px;
+    margin-right: 265PX;
+    background-color: #f7de00;
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+#red-txt {
+    color: rgb(192, 0, 0);
+}
+
+/* анимации для фигур в разделах */
+.section:hover .shape {
+    transform: rotate(360deg);
+
+}
+
+.section:hover .banner {
+    background-color: #0056b3;
+}
+
+/* Стили для всех пунктов меню */
+.services-menu a,
+.legal-consulting-menu a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Стили для разбросанных пунктов меню */
+.services-menu a:nth-child(odd),
+.legal-consulting-menu a:nth-child(odd) {
+    grid-row: span 2;
+}
+
+.services-menu a:nth-child(even),
+.legal-consulting-menu a:nth-child(even) {
+    grid-column: span 2;
+}
+
+/* Наведение на пункты меню */
+.services-menu a:hover,
+.legal-consulting-menu a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+}
+
+/* Стили для меню ПРАВОВОЙ КОНСАЛТИНГ */
+.legal-consulting-menu {
+    display: none;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+/* Стили для меню НАШИ УСЛУГИ */
+.services-menu {
+    display: none;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Стили для нижнего горизонтального меню */
+.bottom-menu {
+    padding: 10px 0;
+}
+
+.bottom-menu nav {
+    text-align: center;
+}
+
+.bottom-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+.bottom-menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.bottom-menu a {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    /* font-weight: bold; */
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.bottom-menu a:hover {
+    border-color: #ffffff;
+}
+
+/* Стили для стрелок влево и вправо */
+.arrow-left {
+    padding-right: 900px;
+}
+
+.arrow-left,
+.arrow-right {
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+/*-- BY MUSTAFA ALRAWI [https://alrawi.ru] --*/
+
+.arrow-left:hover,
+.arrow-right:hover {
+    color: #007bff;
+}
